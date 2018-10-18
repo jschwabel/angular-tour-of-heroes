@@ -13,4 +13,8 @@ export class MessageService {
   clear() {
     this.messages = [];
   }
+
+  getMessages() {
+    return this.messages.reverse();
+  }
 }
